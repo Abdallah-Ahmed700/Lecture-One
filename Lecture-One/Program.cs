@@ -21,10 +21,10 @@
 
             double cost = (numSmallRooms * smallRoom) + (numLargeRooms * largeRoom);
             Console.WriteLine($"Cost : {cost:c}");
-            Console.WriteLine($"Tax : {tax:c}");
+            Console.WriteLine($"Tax : {tax:c1}");
             Console.WriteLine("======================================");
 
-            Console.WriteLine($"Total estimate : {tax + cost:c}");
+            Console.WriteLine($"Total estimate : {tax + cost:c1}");
             Console.WriteLine("Estimates are valid for 30 days");
         }
     }
